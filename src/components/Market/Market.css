@@ -1,0 +1,27 @@
+.coin-row {
+  background-color: rgb(65, 64, 64);
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: start;
+  flex-grow: 1;
+  cursor: pointer;
+  margin: 5px 0 5px 0;
+  border-radius: 3px;
+  padding: 10px 0 10px 0;
+  overflow: none;
+}
+
+.up-percentage {
+  background-color: rgba(52, 199, 89, 0.15);
+  color: #34c759;
+  padding: 3px 8px 3px 8px;
+  border-radius: 3px;
+}
+
+.down-percentage {
+  background-color: rgba(199, 69, 52, 0.15);
+  color: #d6605b;
+  padding: 3px 8px 3px 8px;
+  border-radius: 3px;
+}

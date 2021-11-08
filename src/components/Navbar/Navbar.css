@@ -2,13 +2,17 @@
   background-color: #060b26;
   height: 80px;
   display: flex;
-  justify-content: start;
+  justify-content: space-between;
   align-items: center;
+}
+.profile-section {
+  display: flex;
+  color: white;
 }
 
 .menu-bars {
   margin-left: 2rem;
-  font-size: 2rem;
+  font-size: 2.5rem;
   background: none;
 }
 
@@ -26,7 +30,7 @@
 
 .nav-menu.active {
   left: 0;
-  transition: 350ms;
+  transition: 250ms;
 }
 
 .nav-text {
